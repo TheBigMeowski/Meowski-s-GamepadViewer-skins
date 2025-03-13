@@ -118,8 +118,40 @@
     background: url(assets/button-y.png);
 }
 
-/* TODO dpad
-.custom.dpad{
-    background: url(assets/button-dpad.png);
+.custom .dpad{
+    position: absolute;
+    width: 320px;
+    height: 120px;
 }
-*/
+
+.custom .face{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url(assets/button-dpad.png);
+    opacity: 0;
+}
+
+.custom .face.pressed{
+    opacity: 1;
+}
+
+.custom .face.up{
+    left: 41px;
+    top: 16px;
+}
+
+.custom .face.right{
+    left: 71px;
+    top: 45px;
+}
+
+.custom .face.down{
+    left: 41px;
+    top: 74px;
+}
+
+.custom .face.left{
+    left: 11px;
+    top: 45px;
+}
