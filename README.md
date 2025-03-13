@@ -1,1 +1,1 @@
-An attempt at a CSS adaptation of this: https://github.com/developwisely/squabbler-retrospy-nintendospy-skins
+An attempt at an adaptation of [this](https://github.com/developwisely/squabbler-retrospy-nintendospy-skins) to work with GamepadViewer
