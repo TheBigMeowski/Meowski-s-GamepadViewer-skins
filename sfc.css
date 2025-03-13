@@ -53,7 +53,8 @@
     height: 120px;
 }
 
-.custom .a, .custom .b, .custom .x, .custom .y{
+.custom .button{
+    position: absolute;
     width: 30px;
     height: 30px;
 }
