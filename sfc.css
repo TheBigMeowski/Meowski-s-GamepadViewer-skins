@@ -14,7 +14,6 @@
 }
 */
 
-/* Just testing abxy so I'll comment these out for now
 .custom.bumper{
     background: url(assets/button-shoulder.png);
     width: 61px;
@@ -45,7 +44,6 @@
     top: 82px;
     left: 167px;
 }
-*/
 
 .custom.abxy{
     position: absolute;
@@ -53,7 +51,6 @@
     height: 120px;
 }
 
-/*
 .custom.a, .custom.b, .custom.x, .custom.y{
     width: 30px;
     height: 30px;
