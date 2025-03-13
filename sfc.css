@@ -25,9 +25,9 @@
 .custom .bumper{
     position: absolute;
     background: url(assets/button-shoulder.png);
-    width: 61px;
-    height: 18px;
-    top: 9px;
+    width: 64px;
+    height: 21px;
+    top: 6px;
     opacity: 0;
 }
 
@@ -36,11 +36,11 @@
 }
 
 .custom .bumper.left{
-    left: 92px;
+    left: 90px;
 }
 
 .custom .bumper.right{
-    left: 166px;
+    left: 164px;
 }
 
 /* container for start & select */
@@ -80,8 +80,8 @@
 
 .custom .button{
     position: absolute;
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
     opacity: 0;
 }
 
@@ -90,26 +90,26 @@
 }
 
 .custom .a{
-    top: 45px;
-    left: 279px;
+    top: 44px;
+    left: 278px;
     background: url(assets/button-a.png);
 }
 
 .custom .b{
-    top: 74px;
-    left: 249px;
+    top: 73px;
+    left: 248px;
     background: url(assets/button-b.png);
 }
 
 .custom .x{
-    top: 16px;
-    left: 249px;
+    top: 15px;
+    left: 248px;
     background: url(assets/button-x.png);
 }
 
 .custom .y{
-    top: 45px;
-    left: 219px;
+    top: 44px;
+    left: 218px;
     background: url(assets/button-y.png);
 }
 
@@ -123,8 +123,8 @@
 
 .custom .face{
     position: absolute;
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
     background: url(assets/button-dpad.png);
     opacity: 0;
 }
@@ -134,21 +134,21 @@
 }
 
 .custom .face.up{
-    left: 41px;
-    top: 16px;
+    left: 40px;
+    top: 15px;
 }
 
 .custom .face.right{
-    left: 71px;
-    top: 45px;
+    left: 70px;
+    top: 44px;
 }
 
 .custom .face.down{
-    left: 41px;
-    top: 74px;
+    left: 40px;
+    top: 73px;
 }
 
 .custom .face.left{
-    left: 11px;
-    top: 45px;
+    left: 10px;
+    top: 44px;
 }
