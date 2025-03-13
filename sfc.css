@@ -23,6 +23,7 @@
 }
 
 .custom .bumper{
+    position: absolute;
     background: url(assets/button-shoulder.png);
     width: 61px;
     height: 18px;
@@ -50,6 +51,7 @@
 }
 
 .custom .back, .custom .start{
+    position: absolute;
     background: url(assets/button-start-select.png);
     width: 38px;
     height: 28px;
