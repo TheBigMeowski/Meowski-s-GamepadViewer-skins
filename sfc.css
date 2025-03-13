@@ -8,20 +8,25 @@
     background: url(assets/sfc-base.png);
 }
 
-/* TODO bumpers
-.custom.bumpers{
+.custom.disconnected div{
+    display: none;
 }
 
 .custom.bumper{
-    background: url(assets/button-shoulder.png)
+    background: url(assets/button-shoulder.png);
+    width: 61px;
+    height: 18px;
+    top: 9px;
 }
 
 .custom.bumper.left{
-
+    left: 92px;
 }
-*/
 
-/*
+.custom.bumper.right{
+    left: 166px;
+}
+
 .custom.back, .custom.start{
     background: url(assets/button-start-select.png);
     width: 38px;
