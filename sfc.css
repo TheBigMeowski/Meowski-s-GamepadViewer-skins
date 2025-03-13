@@ -62,24 +62,36 @@
 .custom .a{
     top: 45px;
     left: 279px;
+}
+
+.custom .a.pressed{
     background: url(assets/button-a.png);
 }
 
 .custom .b{
     top: 74px;
     left: 249px;
+}
+
+.custom .b.pressed{
     background: url(assets/button-b.png);
 }
 
 .custom .x{
     top: 16px;
     left: 249px;
+}
+
+.custom .x.pressed{
     background: url(assets/button-x.png);
 }
 
 .custom .y{
     top: 45px;
     left: 219px;
+}
+
+.custom .y.pressed{
     background: url(assets/button-y.png);
 }
 
