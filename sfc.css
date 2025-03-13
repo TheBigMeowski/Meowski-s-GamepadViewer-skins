@@ -117,6 +117,8 @@
     position: absolute;
     width: 320px;
     height: 120px;
+    left: 0px;
+    top: 0px;
 }
 
 .custom .face{
