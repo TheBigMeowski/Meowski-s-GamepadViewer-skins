@@ -47,36 +47,37 @@
 }
 */
 
-.custom .abxy{
+.custom.abxy{
     position: absolute;
     width: 320px;
     height: 120px;
 }
 
-.custom .a, .custom .b, .custom .x, .custom .y{
+/*
+.custom.a, .custom.b, .custom.x, .custom.y{
     width: 30px;
     height: 30px;
 }
 
-.custom .a{
+.custom.a{
     top: 45px;
     left: 279px;
     background: url(assets/button-a.png);
 }
 
-.custom .b{
+.custom.b{
     top: 74px;
     left: 249px;
     background: url(assets/button-b.png);
 }
 
-.custom .x{
+.custom.x{
     top: 16px;
     left: 249px;
     background: url(assets/button-x.png);
 }
 
-.custom .y{
+.custom.y{
     top: 45px;
     left: 219px;
     background: url(assets/button-y.png);
