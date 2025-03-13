@@ -4,11 +4,9 @@
     width: 320px;
 }
 
-/* uncomment if I need to override this
 .custom.disconnected{
-    background: url(assets/sfc-base.png)
+    background: url(assets/sfc-base.png);
 }
-*/
 
 /* TODO bumpers
 .custom.bumpers{
