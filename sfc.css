@@ -145,15 +145,21 @@
 
 .custom .face.right{
     left: 71px;
-    top: 29px;
+    top: 45px;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
 .custom .face.down{
     left: 41px;
     top: 74px;
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
 }
 
 .custom .face.left{
     left: 11px;
-    top: 29px;
+    top: 45px;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
 }
