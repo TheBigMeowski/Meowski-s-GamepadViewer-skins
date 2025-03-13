@@ -4,15 +4,15 @@
     width: 320px;
 }
 
-/* Likely not going to use these
 .custom.disconnected{
     background: url(assets/sfc-base.png);
+    height: 120px;
+    width: 320px;
 }
 
 .custom.disconnected div{
     display: none;
 }
-*/
 
 .custom.bumper{
     background: url(assets/button-shoulder.png);
