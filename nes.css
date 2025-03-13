@@ -1,0 +1,103 @@
+.controller.custom{
+    background: url(assets/nes/base.png);
+    height: 120px;
+    width: 320px;
+}
+
+/* container for start & select */
+.custom .arrows{
+    position: absolute;
+    width: 320px;
+    height: 120px;
+}
+
+.custom .back, .custom .start{
+    position: absolute;
+    background: url(assets/nes/button-start-select.png);
+    width: 42px;
+    height: 16px;
+    opacity: 0;
+}
+
+.custom .back.pressed, .custom .start.pressed{
+    opacity: 1;
+}
+
+.custom .back{
+    top: 75px;
+    left: 113px;
+}
+
+.custom .start{
+    top: 75px;
+    left: 168px;
+}
+
+.custom .abxy{
+    position: absolute;
+    width: 320px;
+    height: 120px;
+}
+
+.custom .button{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    opacity: 0;
+}
+
+.custom .button.pressed{
+    opacity: 1;
+}
+
+.custom .a{
+    top: 65px;
+    left: 276px;
+    background: url(assets/nes/button-b-a.png);
+}
+
+.custom .b{
+    top: 65px;
+    left: 229px;
+    background: url(assets/nes/button-b-a.png);
+}
+
+.custom .dpad{
+    position: absolute;
+    width: 320px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+}
+
+.custom .face{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: url(assets/nes/button-dpad.png);
+    opacity: 0;
+}
+
+.custom .face.pressed{
+    opacity: 1;
+}
+
+.custom .face.up{
+    left: 40px;
+    top: 15px;
+}
+
+.custom .face.right{
+    left: 70px;
+    top: 44px;
+}
+
+.custom .face.down{
+    left: 40px;
+    top: 73px;
+}
+
+.custom .face.left{
+    left: 10px;
+    top: 44px;
+}
