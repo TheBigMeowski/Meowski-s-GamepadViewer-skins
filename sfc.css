@@ -16,11 +16,22 @@
 }
 */
 
+.custom .bumpers{
+    position: absolute;
+    width: 320px;
+    height: 120px;
+}
+
 .custom .bumper{
     background: url(assets/button-shoulder.png);
     width: 61px;
     height: 18px;
     top: 9px;
+    opacity: 0;
+}
+
+.custom .bumper.pressed{
+    opacity: 1;
 }
 
 .custom .bumper.left{
