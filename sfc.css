@@ -1,20 +1,8 @@
 .controller.custom{
-    background: url(assets/sfc-base.png);
+    background: url(assets/sfc/base.png);
     height: 120px;
     width: 320px;
 }
-
-/*
-.custom.disconnected{
-    background: url(assets/sfc-base.png);
-    height: 120px;
-    width: 320px;
-}
-
-.custom.disconnected div{
-    display: none;
-}
-*/
 
 .custom .bumpers{
     position: absolute;
@@ -24,7 +12,7 @@
 
 .custom .bumper{
     position: absolute;
-    background: url(assets/button-shoulder.png);
+    background: url(assets/sfc/button-shoulder.png);
     width: 64px;
     height: 21px;
     top: 8px;
@@ -52,7 +40,7 @@
 
 .custom .back, .custom .start{
     position: absolute;
-    background: url(assets/button-start-select.png);
+    background: url(assets/sfc/button-start-select.png);
     width: 38px;
     height: 28px;
     opacity: 0;
@@ -92,25 +80,25 @@
 .custom .a{
     top: 44px;
     left: 278px;
-    background: url(assets/button-a.png);
+    background: url(assets/sfc/button-a.png);
 }
 
 .custom .b{
     top: 73px;
     left: 248px;
-    background: url(assets/button-b.png);
+    background: url(assets/sfc/button-b.png);
 }
 
 .custom .x{
     top: 15px;
     left: 248px;
-    background: url(assets/button-x.png);
+    background: url(assets/sfc/button-x.png);
 }
 
 .custom .y{
     top: 44px;
     left: 218px;
-    background: url(assets/button-y.png);
+    background: url(assets/sfc/button-y.png);
 }
 
 .custom .dpad{
@@ -125,7 +113,7 @@
     position: absolute;
     width: 32px;
     height: 32px;
-    background: url(assets/button-dpad.png);
+    background: url(assets/sfc/button-dpad.png);
     opacity: 0;
 }
 
