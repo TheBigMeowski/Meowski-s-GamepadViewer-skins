@@ -42,10 +42,22 @@
     left: 166px;
 }
 
+/* container for start & select */
+.custom .arrows{
+    position: absolute;
+    width: 320px;
+    height: 120px;
+}
+
 .custom .back, .custom .start{
     background: url(assets/button-start-select.png);
     width: 38px;
     height: 28px;
+    opacity: 0;
+}
+
+.custom .back.pressed, .custom .start.pressed{
+    opacity: 1;
 }
 
 .custom .back{
