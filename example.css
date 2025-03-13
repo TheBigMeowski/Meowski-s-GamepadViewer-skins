@@ -39,7 +39,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 /*Modified for use with Pokken Tournament Pro pad */
 /*This class defines the base attributes of the skin*/
 .controller.custom{
-    background: url(drawing/drawing.svg); 
+    background: url(sfc-base.png); 
     background-repeat: no-repeat;
     background-position: 0px 0px;
     width: 970px;
@@ -48,7 +48,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     margin-top: -212px;
 }
 .custom.disconnected {
-    background: url(drawing/drawing.svg); 
+    background: url(sfc-base.png); 
     background-position: 0px -424px;
     background-repeat: no-repeat;
 }
