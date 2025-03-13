@@ -4,4 +4,8 @@ This is a project for adapting Squabbler's skins, originally for NintendoSpy/Ret
 
 ## Skins Included So Far
 
-![Super Famicom Skin](assets/sfc-base.png)
+![Super Famicom Skin](assets/sfc/base.png)
+
+![SNES Skin](assets/snes/base.png)
+
+![NES Skin](assets/nes/base.png)
