@@ -80,43 +80,36 @@
 
 .custom .button{
     position: absolute;
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+}
+
+.custom .button.pressed{
+    opacity: 1;
 }
 
 .custom .a{
     top: 45px;
     left: 279px;
-}
-
-.custom .a.pressed{
     background: url(assets/button-a.png);
 }
 
 .custom .b{
     top: 74px;
     left: 249px;
-}
-
-.custom .b.pressed{
     background: url(assets/button-b.png);
 }
 
 .custom .x{
     top: 16px;
     left: 249px;
-}
-
-.custom .x.pressed{
     background: url(assets/button-x.png);
 }
 
 .custom .y{
     top: 45px;
     left: 219px;
-}
-
-.custom .y.pressed{
     background: url(assets/button-y.png);
 }
 
@@ -146,20 +139,14 @@
 .custom .face.right{
     left: 71px;
     top: 45px;
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
 }
 
 .custom .face.down{
     left: 41px;
     top: 74px;
-    -webkit-transform: rotateX(180deg);
-    transform: rotateX(180deg);
 }
 
 .custom .face.left{
     left: 11px;
     top: 45px;
-    -webkit-transform: rotate(-90deg);
-    transform: rotate(-90deg);
 }
