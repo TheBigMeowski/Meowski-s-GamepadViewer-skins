@@ -1,5 +1,5 @@
 .controller.custom{
-    background: url(assets/nes/base.png);
+    background: url(assets/nes/base-transparent-bg.png);
     height: 120px;
     width: 320px;
 }
